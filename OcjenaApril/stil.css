@@ -1,0 +1,89 @@
+@charset "utf-8";
+*
+{margin:0;
+padding:0;
+
+}
+
+p
+{margin:20px 20px 20px 0px;
+}
+
+.header
+{
+	background-image:url(slike/milky-way.jpg);
+}
+.header h1 {
+	
+	color:white;
+	margin-top:40px;
+	padding:20px;
+}
+
+.kolone
+{display:flex;
+padding:20px;}
+
+
+
+.kolona1
+{width:80%;
+
+}
+.kolona2
+{width:20%;
+}
+
+nav
+{position:fixed;
+top:0;
+width:100%;
+}
+
+ul
+{
+	background-color:black;
+}
+
+li
+{	
+	display:inline-block;
+}
+
+li a
+{
+	display:inline-block;
+	width:120px;
+	padding:10px;
+	font-family:"Comic Sans MS", cursive;
+	text-decoration:none;
+	text-align:center;
+	color:#999999;
+}
+
+li a:hover
+{
+	text-decoration:underline;
+	color:white;
+}
+
+.aktivnaStrana {
+  background-color: orange;
+  color: white;
+  border-radius:10px;
+}
+
+
+
+.footer
+{background-color:#333333;
+text-align:center;
+}
+
+.desno img
+{float:right;
+margin:20px;
+border: solid 2px gray;
+padding:5px;
+border-radius:5px;
+}
